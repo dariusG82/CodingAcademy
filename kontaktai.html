@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|Kontaktai|</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Back to main</a>
+        <a target="_blank" href="kainos.html">Kainos</a>
+        <a href="https://www.delfi.lt/paieska/#gsc.tab=0&gsc.q=degal%C5%B3%20kainos&gsc.sort=date">Delfi: degalų kainos</a>
+    </header>
+    <hr>
+    <section>
+        <h1>Kontaktai</h1>
+        <p><b>Adresas: </b>  Rotušės aikštė 15 {Kauno Rotušė}</p>
+        <!-- Telefono numeris kuriuo galima tiesiogiai skambinti atsivertus telefone -->
+        <p>Telefonas: <a href="tel://+37062670080">+370 626 70080</a></p>
+        <p>El paštas: <a href="mailto://darius@gmail.com">darius@gmail.com</a></p>
+    </section>
+    <section>
+        <h2>Duomenu forma</h2>
+        <form method="post" action="/siusti.php">
+            <p>Vardas:</p>
+            <input type="text" name="vardas" required>
+            <p>Telefonas:</p>
+            <input type="tel" name="telefonas" minlength="2" maxlength="4">
+            <p>El. paštas</p>
+            <input type="email" name="pastas">
+            <p>Password</p>
+            <input type="password" name="slaptazodis">
+            <p>Kainu reziai</p>
+            <input type="range" min="0" max="10">
+            <input type="submit">
+        </form>
+    </section>
+    <section>
+            <!-- Žemėlapio įterpimas -->
+    <h2>Žemėlapis: </h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4626.510277630808!2d23.34623828289018!3d54.56425492960076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e12b8a0d5d1ac9%3A0x97d3d71b8242c0a6!2sLIDL!5e0!3m2!1slt!2slt!4v1636480064407!5m2!1slt!2slt" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+</body>
+</html>
