@@ -1,0 +1,49 @@
+body {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: left;
+    visibility: hidden;
+    width: 500px;
+    height: 500px;
+}
+
+.flex-items {
+    align-self: flex-end;
+}
+
+.flex-items > p {
+    margin: 10px;
+}
+
+#first-btn {
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 30px;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+
+#second-btn {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 30px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+}
